@@ -12,7 +12,7 @@
     "last 4 versions"
   ],
   "devDependencies": {
-    "ejs": "^3.1.5",
+    "ejs": "^3.1.6",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "^7.0.1",
     "gulp-clean-css": "^4.3.0",
@@ -25,21 +25,21 @@
     "gulp-rename": "^2.0.0",
     "gulp-replace": "^1.0.0",
     "gulp-sass": "^4.1.0",
-    "gulp-sourcemaps": "^2.6.5",
-    "node-sass": "^4.14.1",
+    "gulp-sourcemaps": "^3.0.0",
+    "node-sass": "^5.0.0",
     "node-sass-package-importer": "^5.3.2",
-    "prettier": "^2.1.2",
+    "prettier": "^2.2.1",
     "prettier-stylelint": "^0.4.2",
-    "stylelint": "^13.7.2",
+    "stylelint": "^13.12.0",
     "stylelint-config-recommended-scss": "^4.2.0",
-    "stylelint-config-standard": "^20.0.0",
-    "stylelint-scss": "^3.18.0"
+    "stylelint-config-standard": "^21.0.0",
+    "stylelint-scss": "^3.19.0"
   },
   "dependencies": {
     "ress": "^3.0.0"
   },
   "scripts": {
-    "build": "${npm bin}/gulp build",
-    "watch": "${npm bin}/gulp watch"
+    "build": "npx gulp build",
+    "watch": "npx gulp watch"
   }
 }
